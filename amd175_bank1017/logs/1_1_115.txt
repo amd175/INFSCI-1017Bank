@@ -1,0 +1,8 @@
+Mon Feb 09 19:25:42 EST 2015|null
+Mon Feb 09 19:25:42 EST 2015|SELECT type, transactionDate, amount FROM transaction WHERE accountID = '00ae9c2a-5d43-11e3-94ef-97beef767f1d';
+Mon Feb 09 19:27:20 EST 2015|null
+Mon Feb 09 19:27:20 EST 2015|SELECT * FROM customer WHERE loginName = 'nmarcus' and pin = 8125;
+Mon Feb 09 19:27:26 EST 2015|null
+Mon Feb 09 19:27:26 EST 2015|SELECT * FROM customer WHERE loginName = 'nmarcus' and pin = 8125;
+Mon Feb 09 22:23:07 EST 2015|Number Format Excpetion: the program couldn't parse the given value
+Mon Feb 09 22:23:07 EST 2015|[Ljava.lang.StackTraceElement;@67fb001d
