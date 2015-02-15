@@ -1,2 +1,0 @@
-Wed Feb 11 18:07:43 EST 2015|null
-Wed Feb 11 18:07:43 EST 2015|SELECT * FROM customer WHERE loginName = 'nmarcus' and pin = 8125;

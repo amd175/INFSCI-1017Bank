@@ -1,2 +1,0 @@
-Wed Jan 28 14:53:40 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'customer ON fk_customerID = customerID' at line 1
-Wed Jan 28 14:53:40 EST 2015|SELECT * FROM account JOIN customer_account ON accountID = fk_accountIDJOIN customer ON fk_customerID = customerID;
