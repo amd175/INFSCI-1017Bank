@@ -1,0 +1,20 @@
+Thu Jan 08 19:23:45 EST 2015|null
+Thu Jan 08 19:23:45 EST 2015|SELECT * FROM account;
+Thu Jan 22 15:45:00 EST 2015|INSERT command denied to user 'amd175'@'150.212.8.65' for table 'transaction'
+Thu Jan 22 15:45:00 EST 2015|INSERT INTO bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('96c775e0-f55b-494f-9008-5d9acb37677d', '00ae9c2a-5d43-11e3-94ef-97beef767f1d', 5000.0, CURDATE(), 'open', 0.0);
+Thu Jan 22 15:46:48 EST 2015|INSERT command denied to user 'amd175'@'150.212.8.65' for table 'transaction'
+Thu Jan 22 15:46:48 EST 2015|INSERT INTO bank1017.transaction (transactionID, accountID, amount, transactionDate)  VALUES ('ac818cde-964b-4e94-ad43-bf798df5163d', '00ae9c2a-5d43-11e3-94ef-97beef767f1d', 5000.0, CURDATE());
+Thu Jan 22 16:00:12 EST 2015|INSERT command denied to user 'amd175'@'150.212.8.65' for table 'transaction'
+Thu Jan 22 16:00:12 EST 2015|INSERT INTO bank1017.transaction (transactionID, accountID, amount, transactionDate)  VALUES ('0821be6c-622c-43aa-9c3b-eced29868714', '00ae9c2a-5d43-11e3-94ef-97beef767f1d', 5000.0, CURDATE())
+Thu Jan 22 16:02:58 EST 2015|null
+Thu Jan 22 16:02:58 EST 2015|INSERT INTO bank1017.transaction (transactionID, accountID, amount, transactionDate)  VALUES ('acd3a376-2a1b-4d92-a74c-c85a6db09fad', '00ae9c2a-5d43-11e3-94ef-97beef767f1d', 5000.0, CURDATE());
+Thu Jan 22 16:02:58 EST 2015|null
+Thu Jan 22 16:02:58 EST 2015|SELECT lastName, loginName, pin FROM customer WHERE loginName = 'nmarcus' AND pin = 8125;
+Thu Jan 22 16:04:04 EST 2015|INSERT command denied to user 'amd175'@'150.212.8.65' for table 'transaction'
+Thu Jan 22 16:04:04 EST 2015|INSERT INTO bank1017.transaction (transactionID, accountID, amount, transactionDate)  VALUES ('83170f7e-70c0-45bb-bec9-7b150d0a12e0', '00ae9c2a-5d43-11e3-94ef-97beef767f1d', 5000.0, CURDATE());
+Thu Jan 22 19:07:16 EST 2015|SELECT command denied to user 'amd175'@'150.212.8.175' for table 'account'
+Thu Jan 22 19:07:16 EST 2015|SELECT * FROM bank1017.account WHERE accountID = '00ae9c2a-5d43-11e3-94ef-97beef767f1d'
+Thu Jan 22 19:08:51 EST 2015|SELECT command denied to user 'amd175'@'150.212.8.175' for table 'account'
+Thu Jan 22 19:08:51 EST 2015|SELECT * FROM bank1017.account WHERE accountID = '00ae9c2a-5d43-11e3-94ef-97beef767f1d'
+Thu Jan 22 19:12:40 EST 2015|SELECT command denied to user 'amd175'@'150.212.8.175' for table 'account'
+Thu Jan 22 19:12:40 EST 2015|SELECT * FROM bank1017.account WHERE accountID = '00ae9c2a-5d43-11e3-94ef-97beef767f1d'

@@ -1,0 +1,14 @@
+Sun Jan 25 09:45:52 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '00ae9c2a-5d43-11e3-94ef-97beef767f1d'' at line 1
+Sun Jan 25 09:45:52 EST 2015|Select * FROM transactionWHERE accountID = '00ae9c2a-5d43-11e3-94ef-97beef767f1d';
+Sun Jan 25 09:47:17 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '00ae9c2a-5d43-11e3-94ef-97beef767f1d'' at line 1
+Sun Jan 25 09:47:17 EST 2015|Select * FROM transactionWHERE accountID = '00ae9c2a-5d43-11e3-94ef-97beef767f1d';
+Sun Jan 25 09:54:02 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '00ae9c2a-5d43-11e3-94ef-97beef767f1d'' at line 1
+Sun Jan 25 09:54:02 EST 2015|Select * FROM transactionWHERE accountID = '00ae9c2a-5d43-11e3-94ef-97beef767f1d';
+Sun Jan 25 09:54:37 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '00ae9c2a-5d43-11e3-94ef-97beef767f1d'' at line 1
+Sun Jan 25 09:54:37 EST 2015|Select * FROM transactionWHERE accountID = '00ae9c2a-5d43-11e3-94ef-97beef767f1d';
+Sun Jan 25 23:23:30 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'customer ON fk_customerId = customerId' at line 1
+Sun Jan 25 23:23:30 EST 2015|SELECT * FROM account JOIN customer_account ON accountId = fk_accountIdJOIN customer ON fk_customerId = customerId;
+Sun Jan 25 23:24:26 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'customer ON fk_customerID = customerID' at line 1
+Sun Jan 25 23:24:26 EST 2015|SELECT * FROM account JOIN customer_account ON accountID = fk_accountIDJOIN customer ON fk_customerID = customerID;
+Sun Jan 25 23:29:31 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'customer ON fk_customerID = customerID' at line 1
+Sun Jan 25 23:29:31 EST 2015|SELECT * FROM account JOIN customer_account ON accountID = fk_accountIDJOIN customer ON fk_customerID = customerID;
